@@ -67,6 +67,9 @@
 html{
   	font-size: 62.5%;
 }
+.navbar-collapse.in
+{
+	overflow-y: initial !important;}
 .logo{
 	text-align: center;
 }
@@ -95,12 +98,15 @@ a{
 	background: linear-gradient(to top, #000000, #3C3C3C);
 }
 .nav>li>a{
-	/*margin: 0;*/
-	font-size: 1.6rem;
+	/*padding: 2px;*/
+	font-size: 14px;
 	font-family: "open_sansregular";
-	padding-right: 7px;
-    padding-left: 7px;
-}
+
+	}   
+.nav>li{
+	/*margin: 0;*/
+	/*padding: 0 !important ;*/
+	} 
 .tron{
 	position: absolute;
 	bottom: 0;
@@ -160,15 +166,11 @@ a{
 }
 .product {
 	text-align: center;
-	/*margin:5% 0 5% 0;*/
 	padding: 10px 0 10px 0;
 	width: 100%;
 
 }
 .product>img{
-/*	display: block;
-    max-width: 100%;
-    margin: 0 auto;*/
     box-shadow: 0px 0px 1px 0px;
     width: 80%;
     height: auto;
@@ -252,4 +254,8 @@ section{
 .active>a{
 	background: linear-gradient(to top, #F5F6F6, #D7D7D8) !important;
 	color: black !important;
+	display: block !important;
+	padding: 15px 23px
+
+
 }
